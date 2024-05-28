@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Miguel Ángel",
+    "name": "Miguel Ángel Durán",
     "label": "Full-Stack developer with more than 15 years of experience & development content creator",
     "image": "/me.webp",
     "email": "yubo.hu@me.com",
@@ -34,7 +34,7 @@
   },
   "work": [
     {
-      "name": "Midudev",
+      "name": "midudev",
       "position": "Web programming communicator",
       "url": "https://twitch.tv/midudev",
       "startDate": "2021-01-01",
@@ -185,15 +185,6 @@
       "keywords": [
         "Web development", "Frontend", "JavaScript Library", "UI"
       ]
-    },
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
     }
   ],
   "languages": [
@@ -279,16 +270,6 @@
         "+50k live viewers"
       ],
       "url": "https://miduconf.com"
-    },
-    {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
     }
   ]
 }

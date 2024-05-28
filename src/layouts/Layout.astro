@@ -41,6 +41,11 @@ const { image, summary, url } = basics
 <style is:global>
   html {
     font-family:
+    ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    sans-serif,
       Menlo,
       Monaco,
       Lucida Console,
@@ -48,7 +53,8 @@ const { image, summary, url } = basics
       Courier,
       monospace;
     background: #fff;
-    letter-spacing: -0.025rem;
+    /* letter-spacing: -0.025rem; */
+    line-height: 1.5;
   }
 
   body,
@@ -93,9 +99,9 @@ const { image, summary, url } = basics
   }
 
   p {
-    color: #666;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    color: #6b7280;
+    font-size: 0.875rem;
+    line-height: 1rem;
     margin: 0;
     text-wrap: pretty;
   }
@@ -121,4 +127,10 @@ const { image, summary, url } = basics
       break-inside: avoid;
     }
   }
+
+  h1 {font-weight: 700; font-size: 1.5rem; line-height: 2rem;}
+  .mono-text {font-family:
+    ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;}
+h3 {font-size: 1.25rem;;}
+
 </style>
